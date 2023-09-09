@@ -1,0 +1,119 @@
+:root{
+  --primaryColor: #484848;
+  --white: #fff;
+  --lightGrey: #e7e7e7;
+  --red: #ef3e47;
+}
+.shift-heading {
+  width: 100%;
+  .bottom-line {
+  border-bottom: 3.5px solid var(--red);
+  padding: 0px;
+  margin: 0 0 -1px;
+  width: 50px;
+}
+}
+
+.m-0 {
+  margin: 0 auto;
+}
+
+.wid-150 {
+  width: 150px;
+}
+
+.card {
+  box-shadow: 0px 0px 3px 3px var(--lightGrey);
+}
+
+.table {
+  border-spacing: 0 10px;
+  border-collapse: separate;
+
+  tr td {
+    background-color: var(--primaryColor);
+    color: var(--white);
+
+    &:first-child {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    &:last-child {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.action-icons:hover {
+  opacity: 06;
+}
+
+.mx-datepicker {
+  width: 100% !important;
+
+  .mx-input {
+    border-color: var(--primaryColor);
+    height: 38px;
+  }
+}
+
+.mx-calendar-content .cell.active {
+  background-color: var(--primaryColor) !important;
+}
+
+.form-control {
+  border-color: var(--primaryColor)
+}
+
+
+.shift-date-group-panel {
+  .mx-datepicker {
+    width: 100%;
+  }
+
+  .mx-input {
+    border-color: var(--primaryColor);
+    height: 38px;
+  }
+}
+
+.mx-time-column .mx-time-item.active {
+  color: var(--primaryColor) !important
+}
+
+
+.shift-date-group-bg {
+  background: var(--primaryColor);
+  padding: 10px;
+  color: var(--white);
+  border-radius: 5px;
+}
+
+.error-message {
+  color: var(--red);
+}
+
+.multi-range-slider {
+  box-shadow: none !important;
+  border: none !important;
+  .bar-inner {
+    background-color: var(--red) !important;
+    box-shadow: none !important;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
